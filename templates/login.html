@@ -49,7 +49,8 @@
             if (response_json.success) {
                 let body = document.querySelector('body');
                 body.style.backgroundColor = "white";
-                body.style.display = "block";
+		body.style.padding = "8px";
+		body.style.display = "block";
                 body.innerHTML = response_json.message;
             }else {
                 let body = document.querySelector('body');
